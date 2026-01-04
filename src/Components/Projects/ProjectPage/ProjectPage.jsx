@@ -84,7 +84,7 @@ export default function ProjectPage() {
                 {project.video && (
                     <div className="project-video">
                         <video 
-                            src={project.video} 
+                            src={`${import.meta.env.BASE_URL}${project.video}`}
                             autoPlay 
                             loop 
                             muted 
