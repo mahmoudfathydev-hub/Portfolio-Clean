@@ -4,7 +4,7 @@ import tailwindcss from '@tailwindcss/vite'
 import path from 'path'
 
 export default defineConfig(({ mode }) => ({
-  base: mode === 'production' ? '/Portfolio/' : '/',
+  base: mode === 'production' ? '/Portfolio-Clean/' : '/',
   plugins: [react(), tailwindcss()],
   resolve: {
     alias: {
