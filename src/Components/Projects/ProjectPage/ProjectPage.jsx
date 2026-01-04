@@ -48,8 +48,8 @@ export default function ProjectPage() {
                 <h1>{project.name}</h1>
                 <p>{project.desc}</p>
                 <div className="project-buttons">
-                    {project.github && <Button  className="btn-project-link" name="GitHub" Icon={FaGithub} url={project.github} />}
-                    {project.netlify && <Button className="btn-project-link"  name="Netlify" Icon={FaExternalLinkAlt} url={project.netlify} />}
+                    {project.github && <Button className="btn-project-link" name="GitHub" Icon={FaGithub} url={project.github} />}
+                    {project.netlify && <Button className="btn-project-link" name="Netlify" Icon={FaExternalLinkAlt} url={project.netlify} />}
                 </div>
             </motion.div>
 
@@ -83,12 +83,12 @@ export default function ProjectPage() {
 
                 {project.video && (
                     <div className="project-video">
-                        <video 
+                        <video
                             src={`${import.meta.env.BASE_URL}${project.video}`}
-                            autoPlay 
-                            loop 
-                            muted 
-                            playsInline 
+                            autoPlay
+                            loop
+                            muted
+                            playsInline
                             controls
                             onError={(e) => console.error('Video failed to load:', project.video)}
                             onLoad={() => console.log('Video loaded successfully:', project.video)}
@@ -101,11 +101,11 @@ export default function ProjectPage() {
                     {project.images.map((img) => (
                         <motion.img
                             key={img.id}
-                            src={img.img}
+                            src={`${import.meta.env.BASE_URL}${img.img}`}
                             alt={`${project.name} screenshot`}
                             whileHover={{ scale: 1.05, boxShadow: "0 6px 10px rgba(228,0,55,0.6)" }}
                             transition={{ type: "spring", stiffness: 300 }}
-                            onClick={() => setLightbox({ open: true, img: img.img })}
+                            onClick={() => setLightbox({ open: true, img: `${import.meta.env.BASE_URL}${img.img}` })}
                             onError={(e) => {
                                 console.error('Image failed to load:', img.img);
                                 e.target.style.display = 'none';
