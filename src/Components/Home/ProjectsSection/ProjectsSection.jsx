@@ -8,12 +8,14 @@ import Button from "@/Components/UI/Button/Button";
 
 export default function ProjectsSection() {
     const navigate = useNavigate();
+    const firstImage = project.images[0].img;
 
     return (
         <div className="projects-section">
             <div className="section-title">
                 <p>My <span>Projects</span></p>
             </div>
+
             <div className="container">
                 {projectsData.projects.map((project) => {
                     const firstImage = project.images[0].img;
@@ -24,11 +26,11 @@ export default function ProjectsSection() {
                             className="project-card"
                             whileHover={{ scale: 1.05 }}
                             whileTap={{ scale: 0.95 }}
-                            onClick={() => navigate(`/course/${project.id}`)} // كارت كامل قابل للنقر
+                            onClick={() => navigate(`/course/${project.id}`)} 
                         >
                             <div className="project-image-wrapper">
-                                <img 
-                                    src={firstImage} 
+                                <img
+                                    src={`${import.meta.env.BASE_URL}${firstImage}`}
                                     alt={project.name}
                                     onError={(e) => {
                                         console.error('Image failed to load:', firstImage);
@@ -45,7 +47,7 @@ export default function ProjectsSection() {
 
                             <div
                                 className="project-links"
-                                onClick={(e) => e.stopPropagation()} // يمنع التنقل عند الضغط على الأزرار
+                                onClick={(e) => e.stopPropagation()} 
                             >
                                 {project.github && (
                                     <Button
