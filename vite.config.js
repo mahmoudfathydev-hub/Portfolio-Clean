@@ -3,12 +3,12 @@ import react from '@vitejs/plugin-react'
 import tailwindcss from '@tailwindcss/vite'
 import path from 'path'
 
-export default defineConfig({
-  base: '/Mahmoud-Fathy/',
+export default defineConfig(({ mode }) => ({
+  base: mode === 'production' ? '/Portfolio/' : '/',
   plugins: [react(), tailwindcss()],
   resolve: {
     alias: {
       '@': path.resolve(__dirname, 'src')
     }
   }
-})
+}))
