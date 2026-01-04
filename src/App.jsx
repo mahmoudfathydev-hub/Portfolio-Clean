@@ -7,6 +7,7 @@ import Footer from './Components/Global/Footer/Footer'
 import Projects from './Pages/Projects/Projects'
 import ProjectPage from './Components/Projects/ProjectPage/ProjectPage'
 import ScrollToTop from './Components/UI/ScrollToTop/ScrollToTop'
+import BackToTop from './Components/UI/BackToTop/BackToTop'
 import Contact from './Pages/Contact/Contact'
 import Skills from './Pages/Skills/Skills'
 
@@ -24,6 +25,7 @@ export default function App() {
         <Route path="/skills" element={<Skills />} />
       </Routes>
       <Footer />
+      <BackToTop />
     </div>
   )
 }

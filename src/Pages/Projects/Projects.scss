@@ -1,0 +1,12 @@
+.projects-page {
+  min-height: 100vh;
+
+  &__header {
+    text-align: center;
+    padding: 40px 20px 20px;
+
+    @media (max-width: 768px) {
+      padding: 30px 15px 15px;
+    }
+  }
+}
