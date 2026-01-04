@@ -27,7 +27,15 @@ export default function ProjectsSection() {
                             onClick={() => navigate(`/course/${project.id}`)} // كارت كامل قابل للنقر
                         >
                             <div className="project-image-wrapper">
-                                <img src={firstImage} alt={project.name} />
+                                <img 
+                                    src={firstImage} 
+                                    alt={project.name}
+                                    onError={(e) => {
+                                        console.error('Image failed to load:', firstImage);
+                                        e.target.style.display = 'none';
+                                    }}
+                                    onLoad={() => console.log('Image loaded successfully:', firstImage)}
+                                />
                             </div>
 
                             <div className="project-info">

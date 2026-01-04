@@ -44,7 +44,7 @@
       "images": [
         {
           "id": 1,
-          "img": "../images/imagecard.png"
+          "img": "/images/imagecard.png"
         },
         {
           "id": 2,

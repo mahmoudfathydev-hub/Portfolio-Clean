@@ -83,7 +83,16 @@ export default function ProjectPage() {
 
                 {project.video && (
                     <div className="project-video">
-                        <video src={project.video} autoPlay loop muted playsInline controls/>
+                        <video 
+                            src={project.video} 
+                            autoPlay 
+                            loop 
+                            muted 
+                            playsInline 
+                            controls
+                            onError={(e) => console.error('Video failed to load:', project.video)}
+                            onLoad={() => console.log('Video loaded successfully:', project.video)}
+                        />
                     </div>
                 )}
 
@@ -97,6 +106,11 @@ export default function ProjectPage() {
                             whileHover={{ scale: 1.05, boxShadow: "0 6px 10px rgba(228,0,55,0.6)" }}
                             transition={{ type: "spring", stiffness: 300 }}
                             onClick={() => setLightbox({ open: true, img: img.img })}
+                            onError={(e) => {
+                                console.error('Image failed to load:', img.img);
+                                e.target.style.display = 'none';
+                            }}
+                            onLoad={() => console.log('Image loaded successfully:', img.img)}
                         />
                     ))}
                 </div>
