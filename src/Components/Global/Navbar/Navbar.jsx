@@ -1,7 +1,7 @@
 import React from 'react'
 import logo from '../../../images/logo.png'
 import { NavLink } from 'react-router-dom'
-import './navbar.scss'
+import './Navbar.scss'
 import Button from '../../UI/Button/Button'
 
 
