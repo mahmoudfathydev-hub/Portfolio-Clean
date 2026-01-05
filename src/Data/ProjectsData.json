@@ -44,7 +44,7 @@
       "images": [
         {
           "id": 1,
-          "img": "./images/imagecard.png"
+          "img": "./images/1.png"
         },
         {
           "id": 2,
@@ -143,7 +143,7 @@
       "images": [
         {
           "id": 1,
-          "img": "./images/projectcardcatopiaa.png"
+          "img": "./images/2.png"
         },
         {
           "id": 2,
