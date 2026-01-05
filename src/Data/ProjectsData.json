@@ -44,47 +44,47 @@
       "images": [
         {
           "id": 1,
-          "img": "./images/imagecard.png"
+          "img": "/Portfolio-Clean/images/imagecard.png"
         },
         {
           "id": 2,
-          "img": "./images/home.png"
+          "img": "/Portfolio-Clean/images/home.png"
         },
         {
           "id": 3,
-          "img": "./images/courseselector.png"
+          "img": "/Portfolio-Clean/images/courseselector.png"
         },
         {
           "id": 4,
-          "img": "./images/courses.png"
+          "img": "/Portfolio-Clean/images/courses.png"
         },
         {
           "id": 5,
-          "img": "./images/courses2.png"
+          "img": "/Portfolio-Clean/images/courses2.png"
         },
         {
           "id": 6,
-          "img": "./images/chat.png"
+          "img": "/Portfolio-Clean/images/chat.png"
         },
         {
           "id": 7,
-          "img": "./images/FAQ.png"
+          "img": "/Portfolio-Clean/images/FAQ.png"
         },
         {
           "id": 8,
-          "img": "./images/aboutus.png"
+          "img": "/Portfolio-Clean/images/aboutus.png"
         },
         {
           "id": 9,
-          "img": "./images/contact.png"
+          "img": "/Portfolio-Clean/images/contact.png"
         },
         {
           "id": 10,
-          "img": "./images/login.png"
+          "img": "/Portfolio-Clean/images/login.png"
         },
         {
           "id": 11,
-          "img": "./images/signin.png"
+          "img": "/Portfolio-Clean/images/signin.png"
         }
       ],
       "video": "/videos/EZYskills.mp4",
@@ -143,59 +143,59 @@
       "images": [
         {
           "id": 1,
-          "img": "./images/projectcardcatopiaa.png"
+          "img": "/Portfolio-Clean/images/projectcardcatopiaa.png"
         },
         {
           "id": 2,
-          "img": "./images/cartopiastore1.png"
+          "img": "/Portfolio-Clean/images/cartopiastore1.png"
         },
         {
           "id": 3,
-          "img": "./images/cartopiastore1.1.png"
+          "img": "/Portfolio-Clean/images/cartopiastore1.1.png"
         },
         {
           "id": 4,
-          "img": "./images/cartopiastore2.png"
+          "img": "/Portfolio-Clean/images/cartopiastore2.png"
         },
         {
           "id": 5,
-          "img": "./images/cartopiastore2.2.png"
+          "img": "/Portfolio-Clean/images/cartopiastore2.2.png"
         },
         {
           "id": 6,
-          "img": "./images/cartopiastore3.png"
+          "img": "/Portfolio-Clean/images/cartopiastore3.png"
         },
         {
           "id": 7,
-          "img": "./images/cartopiastore3.3.png"
+          "img": "/Portfolio-Clean/images/cartopiastore3.3.png"
         },
         {
           "id": 8,
-          "img": "./images/cartopiastore4.png"
+          "img": "/Portfolio-Clean/images/cartopiastore4.png"
         },
         {
           "id": 9,
-          "img": "./images/cartopiastore4.4.png"
+          "img": "/Portfolio-Clean/images/cartopiastore4.4.png"
         },
         {
           "id": 10,
-          "img": "./images/cartopiastore4.4-1.png"
+          "img": "/Portfolio-Clean/images/cartopiastore4.4-1.png"
         },
         {
           "id": 11,
-          "img": "./images/cartopiastore5.png"
+          "img": "/Portfolio-Clean/images/cartopiastore5.png"
         },
         {
           "id": 12,
-          "img": "./images/cartopiastore5.5.png"
+          "img": "/Portfolio-Clean/images/cartopiastore5.5.png"
         },
         {
           "id": 13,
-          "img": "./images/cartopiastore6.png"
+          "img": "/Portfolio-Clean/images/cartopiastore6.png"
         },
         {
           "id": 14,
-          "img": "./images/cartopiastore7.png"
+          "img": "/Portfolio-Clean/images/cartopiastore7.png"
         }
       ],
       "video": "/videos/cartopiaa.mp4",
