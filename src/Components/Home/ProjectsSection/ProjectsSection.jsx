@@ -8,7 +8,6 @@ import Button from "@/Components/UI/Button/Button";
 
 export default function ProjectsSection() {
     const navigate = useNavigate();
-    const firstImage = project.images[0].img;
 
     return (
         <div className="projects-section">
@@ -30,7 +29,7 @@ export default function ProjectsSection() {
                         >
                             <div className="project-image-wrapper">
                                 <img
-                                    src={`${import.meta.env.BASE_URL}${firstImage}`}
+                                    src={firstImage}
                                     alt={project.name}
                                     onError={(e) => {
                                         console.error('Image failed to load:', firstImage);
