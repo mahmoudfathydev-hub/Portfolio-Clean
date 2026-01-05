@@ -87,7 +87,7 @@
           "img": "/Portfolio-Clean/images/signin.png"
         }
       ],
-      "video": "/videos/EZYskills.mp4",
+      "video": "/Portfolio-Clean/videos/EZYskills.mp4",
       "netlify": "https://ezy-skills.netlify.app/",
       "github": "https://github.com/mahmoudfathydev-hub/EZYSKILLS.git"
     },
@@ -198,7 +198,7 @@
           "img": "/Portfolio-Clean/images/cartopiastore7.png"
         }
       ],
-      "video": "/videos/cartopiaa.mp4",
+      "video": "/Portfolio-Clean/videos/cartopiaa.mp4",
       "netlify": "https://cartopia-hup.netlify.app/",
       "github": "https://github.com/mahmoudfathydev-hub/Ecommerce-Cartopiaa.git"
     }
