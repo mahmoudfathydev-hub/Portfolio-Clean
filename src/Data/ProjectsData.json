@@ -44,50 +44,50 @@
       "images": [
         {
           "id": 1,
-          "img": "/Portfolio-Clean/images/imagecard.png"
+          "img": "./images/imagecard.png"
         },
         {
           "id": 2,
-          "img": "/Portfolio-Clean/images/home.png"
+          "img": "./images/home.png"
         },
         {
           "id": 3,
-          "img": "/Portfolio-Clean/images/courseselector.png"
+          "img": "./images/courseselector.png"
         },
         {
           "id": 4,
-          "img": "/Portfolio-Clean/images/courses.png"
+          "img": "./images/courses.png"
         },
         {
           "id": 5,
-          "img": "/Portfolio-Clean/images/courses2.png"
+          "img": "./images/courses2.png"
         },
         {
           "id": 6,
-          "img": "/Portfolio-Clean/images/chat.png"
+          "img": "./images/chat.png"
         },
         {
           "id": 7,
-          "img": "/Portfolio-Clean/images/FAQ.png"
+          "img": "./images/FAQ.png"
         },
         {
           "id": 8,
-          "img": "/Portfolio-Clean/images/aboutus.png"
+          "img": "./images/aboutus.png"
         },
         {
           "id": 9,
-          "img": "/Portfolio-Clean/images/contact.png"
+          "img": "./images/contact.png"
         },
         {
           "id": 10,
-          "img": "/Portfolio-Clean/images/login.png"
+          "img": "./images/login.png"
         },
         {
           "id": 11,
-          "img": "/Portfolio-Clean/images/signin.png"
+          "img": "./images/signin.png"
         }
       ],
-      "video": "/Portfolio-Clean/videos/EZYskills.mp4",
+      "video": "./videos/EZYskills.mp4",
       "netlify": "https://ezy-skills.netlify.app/",
       "github": "https://github.com/mahmoudfathydev-hub/EZYSKILLS.git"
     },
@@ -143,62 +143,62 @@
       "images": [
         {
           "id": 1,
-          "img": "/Portfolio-Clean/images/projectcardcatopiaa.png"
+          "img": "./images/projectcardcatopiaa.png"
         },
         {
           "id": 2,
-          "img": "/Portfolio-Clean/images/cartopiastore1.png"
+          "img": "./images/cartopiastore1.png"
         },
         {
           "id": 3,
-          "img": "/Portfolio-Clean/images/cartopiastore1.1.png"
+          "img": "./images/cartopiastore1.1.png"
         },
         {
           "id": 4,
-          "img": "/Portfolio-Clean/images/cartopiastore2.png"
+          "img": "./images/cartopiastore2.png"
         },
         {
           "id": 5,
-          "img": "/Portfolio-Clean/images/cartopiastore2.2.png"
+          "img": "./images/cartopiastore2.2.png"
         },
         {
           "id": 6,
-          "img": "/Portfolio-Clean/images/cartopiastore3.png"
+          "img": "./images/cartopiastore3.png"
         },
         {
           "id": 7,
-          "img": "/Portfolio-Clean/images/cartopiastore3.3.png"
+          "img": "./images/cartopiastore3.3.png"
         },
         {
           "id": 8,
-          "img": "/Portfolio-Clean/images/cartopiastore4.png"
+          "img": "./images/cartopiastore4.png"
         },
         {
           "id": 9,
-          "img": "/Portfolio-Clean/images/cartopiastore4.4.png"
+          "img": "./images/cartopiastore4.4.png"
         },
         {
           "id": 10,
-          "img": "/Portfolio-Clean/images/cartopiastore4.4-1.png"
+          "img": "./images/cartopiastore4.4-1.png"
         },
         {
           "id": 11,
-          "img": "/Portfolio-Clean/images/cartopiastore5.png"
+          "img": "./images/cartopiastore5.png"
         },
         {
           "id": 12,
-          "img": "/Portfolio-Clean/images/cartopiastore5.5.png"
+          "img": "./images/cartopiastore5.5.png"
         },
         {
           "id": 13,
-          "img": "/Portfolio-Clean/images/cartopiastore6.png"
+          "img": "./images/cartopiastore6.png"
         },
         {
           "id": 14,
-          "img": "/Portfolio-Clean/images/cartopiastore7.png"
+          "img": "./images/cartopiastore7.png"
         }
       ],
-      "video": "/Portfolio-Clean/videos/cartopiaa.mp4",
+      "video": "./videos/cartopiaa.mp4",
       "netlify": "https://cartopia-hup.netlify.app/",
       "github": "https://github.com/mahmoudfathydev-hub/Ecommerce-Cartopiaa.git"
     }
